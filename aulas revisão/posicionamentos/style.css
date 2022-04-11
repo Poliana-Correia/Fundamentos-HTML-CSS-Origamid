@@ -1,0 +1,37 @@
+* {
+  font-family: Arial;
+}
+
+section {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr; /*1fr: quantidade de fração para cada coluna*/
+
+  gap: 20px; /*gap é utilizado para espaçamento entre itens no display grid.*/
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.item {
+  background: #dadae2;
+  border: 1px solid #e7e7e7;
+
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+
+  text-decoration: none;
+
+  padding: 10px  15px;
+  border-radius: 4px;
+}
